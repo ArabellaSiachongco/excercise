@@ -1,0 +1,40 @@
+body {
+  margin: 30px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+}
+
+.box1{
+  width:100px;
+  height:100px;
+  margin:10px;
+  padding:10px;
+  background-color:pink;
+  border-style: dotted;
+  border-color: black;
+  border-width:2px;
+}
+
+.box2{
+  width:100px;
+  height:100px;
+  margin:10px;
+  padding:10px;
+  background-color:skyblue;
+  border-style: solid;
+  border-color: black;
+  border-width:2px;
+}
+
+.box3{
+  width:100px;
+  height:100px;
+  margin:10px;
+  padding:10px;
+  background-color:rgba(255, 99, 71, 0.5);
+  border: 2px dotted red;
+  border-radius: 10px;
+  border-color: black;
+  border-width:2px;
+}
