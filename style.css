@@ -1,4 +1,8 @@
 
+body{
+    font-size: 30px;
+
+}
 
 .fix1{
   display: flex;
@@ -34,7 +38,7 @@
   margin:10px;
   padding:10px;
   background-color:rgba(255, 99, 71, 0.5);
-  border: 2px dotted red;
+  border: 2px dotted;
   border-radius: 10px;
   border-color: black;
   border-width:2px;
@@ -54,6 +58,7 @@
   padding: 50px;
   width: 200px;
   height: 100px;
+
 }
 
 
@@ -90,6 +95,7 @@
   row-gap: 25px;
   grid-template-columns: auto auto auto;
   padding: 10px;
+  overflow: hidden;
 }
 
 .grid{
@@ -126,21 +132,25 @@
 
 
 .card {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLdh-u07LhCMFHIs9PDHSiwcbSovBHvOKEhA&usqp=CAU');
+  background-image: url('https://www.w3schools.com/css/img_forest.jpg');
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width:50%;
-  height:150px;
-	display: flex;
+  width:200px;
+  height:300px;
+  padding: 15px;
+	display: inline-block;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	background-repeat: no-repeat;
+	justify-content: space-between;
+}
 
+.card h4, p{
+  color: black
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 #D0F288;
 }
 
 .container {
@@ -148,4 +158,110 @@
 }
 
 
+.nested{
+  width: 300px;
+  height: 350px;
+  margin:10px;
+  padding:10px;
+  border-style: dotted;
+  border-color: black;
+  border-width:5px;
+}
 
+.nested1{
+  width: 250px;
+  height: 300px;
+  margin:10px;
+  padding:10px;
+  border-style: solid;
+  border-color: black;
+  border-width:4.5px;
+
+}
+
+
+.nested2{
+  width: 200px;
+  height: 250px;
+  margin:10px;
+  padding:10px;
+  border-style: dotted;
+  border-color: black;
+  border-width:4px;
+}
+
+
+.nested3{
+  width: 155px;
+  height: 200px;
+  margin:10px;
+  padding:10px;
+  border-style: solid;
+  border-color: black;
+  border-width:3.5px;
+}
+
+
+.nested4{
+  width: 110px;
+  height: 155px;
+  margin:10px;
+  padding:10px;
+  border-style: solid;
+  border-color: black;
+  border-width:3px;
+}
+
+
+
+.nested5{
+  width: 50;
+  height: 110px;
+  margin:10px;
+  padding:10px;
+  border-style: dotted;
+  border-color: black;
+  border-width:2.5px;
+}
+
+
+.nested6{
+  width: 50;
+  height: 80;
+  margin:10px;
+  padding:10px;
+  border-style: solid;
+  border-color: black;
+  border-width:2px;
+}
+
+.nested7{
+  width: 50;
+  height: 80;
+  margin:10px;
+  padding:10px;
+  border-style: dotted;
+  border-color: black;
+  border-width:1.5px;
+}
+
+.nested8{
+  width: 50;
+  height: 80;
+  margin:10px;
+  padding:10px;
+  border-style: solid;
+  border-color: black;
+  border-width:1px;
+}
+
+
+.nested7{
+  width: 50;
+  height: 80;
+  margin:10px;
+  padding:10px;
+  border-style: dotted
+  border-color: black;
+  border-width:1px;
+}
