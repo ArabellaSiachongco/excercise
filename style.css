@@ -15,10 +15,12 @@ body{
   height: 150px;
   margin:10px;
   padding:10px;
-  background-color:pink;
+  background-color:#B4BDFF;
   border-style: dotted;
   border-color: black;
   border-width:2px;
+  border-radius: 15px;
+
 }
 
 .box2{
@@ -26,7 +28,7 @@ body{
   height: 150px;
   margin:10px;
   padding:10px;
-  background-color:skyblue;
+  background-color:#FFC7C7;
   border-style: solid;
   border-color: black;
   border-width:2px;
@@ -37,9 +39,9 @@ body{
   height: 150px;;
   margin:10px;
   padding:10px;
-  background-color:rgba(255, 99, 71, 0.5);
+  background-color:#D0F288;
   border: 2px dotted;
-  border-radius: 10px;
+  border-radius: 15px;
   border-color: black;
   border-width:2px;
 }
@@ -49,7 +51,7 @@ body{
   height: 150px;
   padding:10px;
   border: 2px solid black;
-  margin: 10px 20px;
+  margin: 10px;
 }
 
 .box5{
@@ -185,7 +187,7 @@ body{
   height: 250px;
   margin:10px;
   padding:10px;
-  border-style: dotted;
+  border-style: solid;
   border-color: black;
   border-width:4px;
 }
@@ -265,3 +267,12 @@ body{
   border-color: black;
   border-width:1px;
 }
+
+
+
+
+
+
+
+
+
